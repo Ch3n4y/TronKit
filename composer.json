@@ -1,0 +1,23 @@
+{
+  "name": "chaney1024/tronkit",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Chaney1024",
+      "email": "ch3n4y@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "kornrunner/secp256k1": "^0.1.2",
+    "sc0vu/web3.php": "^0.1.4",
+    "simplito/elliptic-php": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "TronKit\\": "src"
+    }
+  }
+}
